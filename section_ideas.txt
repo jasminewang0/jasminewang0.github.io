@@ -1,0 +1,4 @@
+photo
+resume
+biography
+side projects
