@@ -6,6 +6,7 @@
     <script type="text/javascript" src="js/sheetsee.js"></script>
     <script type="text/javascript" src="js/socialbits.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>Hello World</title>
@@ -15,25 +16,81 @@
     <div class="container">
       <article id="instagram"><span class="load flash animated">LOADING...</span></article>
 
-      <div class="bio">
-        <h1>Jessica Lord</h1>
-        <p>I am an open source designer and javascript developer living in Oakland, Ca. I work at GitHub, and it's hella rad. This is test text for this page. So, cool. Coffee, bikes and molé.</p>
+      <div class="header">
+        <h1>Jasmine Wang</h1>
         <ul class="inline-list">
-          <li><a href="">Twitter</a></li>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Dribble</a></li>
+          <li><a href="resume.pdf" target="_blank">Résumé</a></li>
+          <li><a href="https://www.linkedin.com/in/jasmine-wang-949749126/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/jasminewang0/" target="_blank">Github</a></li>
         </ul>
+        <p style = "font-size:17px"><a href="#about_section">About</a> // <a href="#activities_section">Activities</a> // <a href="#skills_section">Skills</a> // <a href="#projects_section">Projects</a> // <a href="#interests_section">Interests</a></p>
+        <hr>
+        </div>
+
+        <div class="about">
+          <section id="about_section"><br></section>
+          <h2>About</h2>
+          <p>I am a current sophomore and <a href="https://park.ncsu.edu/class-2020/" target="_blank">Park Scholar</a> at <a href="https://www.ncsu.edu/" target="_blank">North Carolina State University</a> pursuing a major in Computer Science and a minor in Sociology.</p>
+          <p>I am interested in <a href="https://en.wikipedia.org/wiki/Civic_technology" target="_blank">civic technology</a> and <a href="https://en.wikipedia.org/wiki/Virtual_reality" target="_blank">Virtual</a>/<a href="https://en.wikipedia.org/wiki/Augmented_reality" target="_blank">Augmented</a> Reality. I am especially interested in the power of technology to do social good.</p>
+          <br>
+          <hr>
+        </div>
+
+      <div class="activities">
+        <section id="activities_section"><br></section>
+        <h2>Activities</h2>
+        <p>this is ur next section</p>
+        <br>
+        <hr>
       </div>
 
-      <article id="tweet"><span class="load flash animated">LOADING...</span></article>
+      <div class="skills">
+        <section id="skills_section"><br></section>
+        <h2>Skills</h2>
+        <p>this is ur next section</p>
+        <br>
+        <hr>
+      </div>
+
+      <div class="Projects">
+        <section id="projects_section"><br></section>
+        <h2>Projects</h2>
+        <p>Technical:</p>
+        <ul>
+          <li style="font-size:18px"><a href="https://twitter.com/issabeebot" target="_blank">@issabeebot</a>: A bot referencing the film <i><a href = "https://en.wikipedia.org/wiki/Bee_Movie">Bee Movie</a></i> (2007).</li>
+          <li style="font-size:18px"><a href="https://jasminewang0.github.io/" target="_blank">This website</a>: </li>
+        </ul>
+        <p>Non-technical:</p>
+        <ul>
+          <li style="font-size:18px"><a href="https://d.lib.ncsu.edu/collections/catalog/mc00581-wt-wang-park-20170428" target="_blank">Wolf Tales recording</a>: Some stuff.
+            <video width="450" height="338" poster="wolftales_thumbnail.PNG" controls preload="none">
+              <source src="https://siskel.lib.ncsu.edu/SCRC/mc00581-wt-wang-park-20170428/mc00581-wt-wang-park-20170428.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+          <li style="font-size:18px"><a href="https://d.lib.ncsu.edu/collections/catalog/mc00581-wt-wang-park-20170428" target="_blank">Defend DACA March</a>: Some stuff.</li>
+        </ul>
+        <br>
+        <hr>
+      </div>
+
+      <div class="interests">
+        <section id="interests_section"><br></section>
+        <h2>Interests</h2>
+        <p>this is ur next section</p>
+        <br>
+        <hr>
+      </div>
+
+      <p style = "font-size:12px; text-align:right"><i>Template by <a href="https://github.com/jlord/person-page">jlord on Github.</a></i></p>
+
+      <!-- <article id="tweet"><span class="load flash animated">LOADING...</span></article> -->
 
     </div>
 
     <!-- Templates -->
     <script id="instagram" type="text/html">
       {{#rows}}
-        <div class="one-gram"><img src="{{instasource}}" width="150"></div>
+        <div class="one-gram"><img src="Wang_Jasmine.jpeg" width="155"></div>
 
       {{/rows}}
     </script>
