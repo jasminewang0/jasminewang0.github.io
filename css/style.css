@@ -24,7 +24,7 @@ margin-bottom: 0px;}
 
 p {
 font-size: 20px;
-line-height: 1.3em;
+line-height: 1.2em;
 text-indent: 0px;
 }
 
@@ -60,7 +60,7 @@ li {
 .inline-list li {display: inline-block; }
 .inline-list li {padding-left: 40px;}
 .inline-list li a {padding: 3px 8px; border: 1px solid #e86a6a; border-radius: 3px; letter-spacing: .2em; text-transform: uppercase; font-weight: 400; font-size: 14px;}
-.inline-list li a:hover {background: #e86a6a; color: #fff;}
+.inline-list li a:hover {background: #e86a6a; color: #fff; transition: all 0.3s ease-in 0s;}
 
 /*!
 Animate.css - http://daneden.me/animate
